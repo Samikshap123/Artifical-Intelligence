@@ -1,0 +1,37 @@
+Assignment 2 
+
+https://phoenixnap.com/kb/ubuntu-install-kvm
+
+1.Check the ubuntu version
+lsb_release -a
+
+2.egrep -c '(vmx|svm)' /proc/cpuinfo
+
+3.sudo kvm-ok
+
+4.sudo apt install cpu-checker
+
+5.sudo apt update
+
+6.sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+
+When prompted, type Y, press ENTER, and wait for the installation to finish.
+
+7.sudo adduser ‘username’ libvirt
+
+8.sudo adduser ‘[username]’ kvm
+
+9.virsh list --all
+
+10.sudo systemctl status libvirtd
+
+11.Note : If active press Q or not active ---> sudo systemctl enable --now libvirtd
+
+11.sudo apt install virt-manager
+
+12.Install iso image :
+https://www.techspot.com/downloads/5569-fedora.html
+
+13.sudo virt-manager
+
+14.In the first window, click the computer icon in the upper-left corner-----> In the dialogue box that opens, select the option to install the VM using an ISO image. Then click Forward---->Browse Local------>Forwad*4

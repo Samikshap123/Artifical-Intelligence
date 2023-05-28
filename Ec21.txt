@@ -1,0 +1,26 @@
+Assignment 1 
+
+
+1.dowmload pem
+
+2.In terminal locate the directory of pem file and type ls 
+
+3.copy paste two commands
+
+4.which python3
+
+5.python3 --version
+
+6.nano filename.py
+
+7.type python code
+
+print("hello world")
+
+8. Press Y to save and ctrl + X to exit
+
+9.In terminal ---> ls
+
+10.python3 filename.py
+
+11.exit
