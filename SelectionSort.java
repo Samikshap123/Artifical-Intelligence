@@ -18,8 +18,14 @@ public class SelectionSortGreedy {
 
     public static void main(String[] args) {
         int[] arr = {5, 2, 8, 1, 3};
-        System.out.println("Original array: " + Arrays.toString(arr));
+        for(int i=0;i<5;i++){
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
         selectionSort(arr);
-        System.out.println("Sorted array: " + Arrays.toString(arr));
+        System.out.print("Sorted Array is: ");
+         for(int i=0;i<5;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
